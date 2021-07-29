@@ -380,6 +380,14 @@ footer .right-section img {
     Responsive styles 
 --------------------------- */
 
+/* Old desktop styles */
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+    .col.faq-img {
+        display: flex;
+        align-items: center;
+    }
+}
+
 /* Tab styles */
 @media screen and (max-width: 768px) {
     .nav-wrap {
@@ -412,7 +420,7 @@ footer .right-section img {
         margin: 60px auto;
     }
     .faq-section .faq-img {
-        margin: 0 10px 20px;
+        margin: 0 auto 20px;
         min-width: 100%;
         flex-grow: unset;
         text-align: center;
@@ -434,14 +442,18 @@ footer .right-section img {
 /* Mobile styles */
 @media screen and (max-width: 480px) {
     /* Hero styles */
+    header {
+        height: auto;
+    }
     .nav-wrap {
-        margin: 33px auto;
+        margin: 33px auto 46px;
+        height: 36px;
     }
     .hero-section {
         flex-direction: column;
         margin-bottom: 61px;
     }
-    .nav-left ul {
+    .nav-left ul, .nav-right {
         display: none;
     }
     .nav-left::before {
@@ -449,23 +461,86 @@ footer .right-section img {
         font-family: FontAwesome;
         color: #fff;
         position: absolute;
-        left: 16px;
+        left: auto;
+        right: 24px;
         top: 36px;
         font-size: 24px;
     }
+    .hero-section .right-content {
+        position: unset;
+        margin: 56px auto 34px;
+    }
+    .modal.show .modal-dialog {
+        max-width: 100%;
+        margin-top: 10px;
+    }
+    .hero-section .modal-body p {
+        line-height: 27px;
+        margin: 0px auto 15px;
+        font-size: 14px;
+    }
+    .title {
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .single-bike {
+        max-width: 288px;
+        margin: 50px auto;
+    }
+    .latest-news .card, .all-clients .single-client {
+        margin: 0 auto 20px;
+        min-width: 90%;
+    }
+    .all-clients-section .title span {
+        display: block;
+    }
+    .faq-section .title {
+        margin: 0 auto 60px;
+    }
+    .col.partners {
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .partners img {
+        text-align: center;
+        margin: 10px auto;
+        max-width: inherit;
+    }
     .newsletter-section input {
-        min-width: 230px;
+        min-width: 200px;
+    }
+    .newsletter-section button {
+        padding: 10px 20px;
     }
     footer {
         height: auto;
     }
     footer .left-section {
-        margin: 0 10px 20px;
+        margin: 0 auto;
         min-width: 100%;
         flex-grow: unset;
         text-align: center;
     }
     .d-flex.footer-menu {
         flex-wrap: wrap;
+        margin-bottom: 60px;
+    }
+    .download-license a, .footer-menu a {
+        margin-top: 80px;
+    }
+    .footer-menu a {
+        margin-top: 12px;
+        margin-bottom: 5px;
+    }
+    footer .right-section {
+        justify-content: flex-start !important;
+    }
+    .app-content-wrap {
+        margin-top: 0;
+    }
+    .copyright p {
+        margin-bottom: 43px;
     }
 }
