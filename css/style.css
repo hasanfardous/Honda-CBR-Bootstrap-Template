@@ -332,16 +332,37 @@ header {
 --------------------------- */
 footer {
     background: #0B0D17;
+    height: 280px;
 }
-
+footer .left-section {
+    margin-top: 56px;
+}
+.download-license a, .footer-menu a {
+    margin-right: 24px;
+    line-height: 26px;
+    transition: .4s ease 0s;
+}
+.download-license a:hover, .footer-menu a:hover {
+    color: #bbb;
+}
+.footer-menu a {
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
 .copyright p {
-    font-size: 18px;
     line-height: 24px;
-    color: #000000;
     margin: 0 auto;
+    font-size: 14px;
+    color: #D9DBE1;
+    font-weight: normal;
 }
 footer .right-section {
     margin-right: 25px;
+}
+.app-content-wrap {
+    color: #D9DBE1;
+    margin-top: 56px;
+    margin-bottom: 56px;
 }
 footer .right-section img {
     max-width: 135px;
