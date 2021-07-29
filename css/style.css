@@ -182,7 +182,7 @@ header {
 .all-clients-section {
     margin: 160px auto
 }
-.all-clients-section .title {
+.all-clients-section .title, .partners-section .title {
     margin: 0 auto 52px;
 }
 .all-clients .single-client {
@@ -272,6 +272,14 @@ header {
 
 
 /* -----------------------------
+    Partners section styles 
+------------------------------ */
+.partners-section {
+    margin: 160px auto;
+}
+
+
+/* -----------------------------
     Newsletter section styles 
 ------------------------------ */
 .newsletter-section {
@@ -297,8 +305,14 @@ header {
 .newsletter-section h6, .newsletter-section h2 {
     color: #fff;
 }
+.newsletter-section h2 {
+    margin: 15px auto 20px;
+}
+.newsletter-section h6 {
+    font-size: 14px;
+}
 .newsletter-section input {
-    min-width: 340px;
+    min-width:425px;
     padding: 6px 15px;
     border: 1px solid transparent;
 }
