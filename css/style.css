@@ -382,7 +382,53 @@ footer .right-section img {
 
 /* Tab styles */
 @media screen and (max-width: 768px) {
-
+    .nav-wrap {
+        margin-bottom: 80px;
+    }
+    .hero-section .right-content {
+        top: 48px;
+    }
+    .all-bikes {
+        margin: 40px auto 0;
+        flex-direction: column;
+    }
+    .single-bike {
+        max-width: 60%;
+        margin: 40px auto;
+    }
+    .featured-bikes {
+        margin: 64px auto 65px;
+    }
+    .latest-news .card, .all-clients .single-client {
+        margin: 0 10px 20px;
+        min-width: 47%;
+        flex-grow: unset;
+    }
+    .latest-news .card:last-child {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .all-clients-section {
+        margin: 60px auto;
+    }
+    .faq-section .faq-img {
+        margin: 0 10px 20px;
+        min-width: 100%;
+        flex-grow: unset;
+        text-align: center;
+    }
+    .faq-section .faq-img img {
+        padding: 0;
+        max-width: 80%;
+        margin: 0 auto 30px;
+        text-align: center;
+    }
+    .partners-section {
+        margin: 80px auto;
+    }
+    .partners img {
+        max-width: 12%;
+    }
 }
 
 /* Mobile styles */
@@ -406,5 +452,20 @@ footer .right-section img {
         left: 16px;
         top: 36px;
         font-size: 24px;
+    }
+    .newsletter-section input {
+        min-width: 230px;
+    }
+    footer {
+        height: auto;
+    }
+    footer .left-section {
+        margin: 0 10px 20px;
+        min-width: 100%;
+        flex-grow: unset;
+        text-align: center;
+    }
+    .d-flex.footer-menu {
+        flex-wrap: wrap;
     }
 }
