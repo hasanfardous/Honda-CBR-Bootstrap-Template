@@ -25,6 +25,7 @@ a {
     font-weight: 500;
     color: #fff;
     transition: all .4s ease 0s;
+    border-radius: 5px;
 }
 .cbr-button:hover {
     opacity: .9;
@@ -36,12 +37,13 @@ a {
 ------------------- */
 header {
     background: #264653;
+    height: 698px;
 }
 
 
 /* Nav left styles */
-.nav-wrap, .hero-section {
-    margin: 42px auto;
+.nav-wrap {
+    margin: 42px auto 129px;
     display: flex;
     justify-content: flex-end;
 }
@@ -50,6 +52,7 @@ header {
     display: flex;
     list-style: none;
     flex-direction: row;
+    margin: 0;
 }
 
 .nav-left ul li {
@@ -62,29 +65,39 @@ header {
 }
 
 /* Nav right styles */
-.nav-right a i {
-    /* margin-right: 8px; */
+.nav-right .cbr-button {
+    margin-left: 64px;
+    width: 91px;
 }
 
 /* Left content styles */
 .left-content {
 }
+.hero-section h6, .hero-section h1 {
+    color: #fff;
+}
 .hero-section h6 {
     font-size: 14px;
-    color: #fff;
     font-weight: 300;
+    line-height: 22px;
 }
 .hero-section h1 {
     font-size: 48px;
     line-height: 72px;
     font-weight: 600;
 }
-.left-content h1 {
-    font-size: 64px;
-    font-weight: 700;
-    line-height: 80px;
-    color: #fff;
-    margin: 60px auto 15px;
+.hero-section p {
+    color: #E0E0E0;
+    font-weight: 300;
+    line-height: 24px;
+    margin: 18px auto 21px;
+}
+.hero-section .cbr-button {
+    width: 168px;
+}
+.hero-section .right-content {
+    position: relative;
+    top: -70px;
 }
 
 /* -------------------
