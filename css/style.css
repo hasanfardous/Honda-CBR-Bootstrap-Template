@@ -176,19 +176,56 @@ header {
     color: #fff;
 }
 
-/* ---------------------------
+/* ------------------------------
     Happy client section styles 
---------------------------- */
-.single-client img {
+------------------------------- */
+.all-clients-section {
+    margin: 160px auto
+}
+.all-clients-section .title {
+    margin: 0 auto 52px;
+}
+.all-clients .single-client {
+    border: 1px solid #DEDEDE;
+    margin: 0 22px;
+    padding: 40px 35px;
+    border-radius: 5px;
+}
+.all-clients .single-client .client-body > p {
+    line-height: 26px;    
+    color: #6C6C6C;
+    margin: 30px auto 15px;
+}
+.all-clients .single-client img {
     max-width: 149px;
 }
-.single-client .rounded-circle {
+.all-clients .single-client .rounded-circle {
     border: 1px solid #bdbdbd;
 }
+.all-clients .single-client .client-body .reviews {
+    color: #E76F51;
+    line-height: 22px;
+    margin: 15px auto;
+    font-size: 18px;
+}
+.all-clients .single-client .client-body .client-name {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;    
+    color: #23A6F0;
+    margin: 15px auto;
+}
+.all-clients .single-client .client-body .client-designation {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;    
+    color: #252B42;
+    margin: 0;
+}
 
-/* ---------------------------
+/* -----------------------------
     Newsletter section styles 
---------------------------- */
+------------------------------ */
 .newsletter-section {
     background-image: url(../images/subscribe-bg.jpg);
     background-repeat: no-repeat;
