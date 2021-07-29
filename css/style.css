@@ -116,6 +116,11 @@ header {
 .hero-section .cbr-button {
     width: 168px;
 }
+.modal.show .modal-dialog {
+    transform: none;
+    max-width: 70%;
+    margin-top: 10%;
+}
 .hero-section .right-content {
     position: relative;
     top: -70px;
@@ -159,7 +164,7 @@ header {
     font-weight: 600;
     margin: 40px auto 10px;
 }
-.latest-news .card p {
+.latest-news .card p, .hero-section .modal-body p {
     line-height: 32px;    
     color: #6C6C6C;
     margin-bottom: 40px;
@@ -249,6 +254,7 @@ header {
     font-size: 20px;
     line-height: 28px;
     padding: 0;
+    transition: all .3s ease 0s;
 }
 .all-faqs .accordion-item .accordion-button.collapsed {
     padding-bottom: 20px;
