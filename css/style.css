@@ -224,6 +224,54 @@ header {
 }
 
 /* -----------------------------
+    FAQ section styles 
+------------------------------ */
+.faq-section .title {
+    margin: 0 auto 112px;
+}
+.faq-img img {
+    padding-right: 140px;
+}
+.all-faqs .accordion-item {
+    margin-bottom: 13px;
+    border: 1px solid #D5E5FB;
+    padding: 20px 24px 0;
+    border-radius: 5px;
+}
+.all-faqs .accordion-item .accordion-button:focus {
+    outline: none;
+    box-shadow: none;
+}
+.accordion-item .accordion-button {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    padding: 0;
+}
+.all-faqs .accordion-item .accordion-button.collapsed {
+    padding-bottom: 20px;
+}
+.accordion-item .accordion-body {
+    margin: 0;
+    padding: 0;
+}
+.accordion-item .accordion-body p {
+    font-size: 16px;
+    line-height: 28px;    
+    color: #7E848C;
+    margin: 8px auto;
+    font-weight: normal;
+}
+.accordion-button:not(.collapsed) {
+    color: #383838;
+    background-color: #fff;
+    box-shadow: none;
+}
+
+
+/* -----------------------------
     Newsletter section styles 
 ------------------------------ */
 .newsletter-section {
